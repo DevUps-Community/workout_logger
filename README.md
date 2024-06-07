@@ -13,6 +13,24 @@ Build a workout logging system where users can log their workouts, view history,
 4. **History Tracking:**
    - Track and display workout history.
 
+## Description
+This project aims to build a workout logging system where users can log their workouts, view history, and see graphical representations of their progress.
+
+**Aspects to Consider:**
+
+- **Schema Design:**
+  - Think about the data you need to capture for each workout (e.g., exercise type, duration, sets, reps).
+  - Consider how to store and retrieve historical data for progress tracking.
+
+- **React App Design:**
+  - Design components for workout logging, viewing past workouts, and displaying progress graphs.
+  - Use a graphing library to visualise workout progress over time.
+
+- **Best Practices:**
+  - Ensure a smooth user experience with easy navigation and quick logging capabilities.
+  - Implement robust error handling and validation for workout data.
+  - Make sure the app is optimised for performance, especially when dealing with large datasets.
+
 ## Technical Requirements
 - **Backend:** Node.js with Express
 - **Database:** Supabase
@@ -29,4 +47,4 @@ Build a workout logging system where users can log their workouts, view history,
    - Create endpoints to add, update, delete, and fetch workout logs.
 4. **Frontend:**
    - Build React components for registration, login, workout logging, and progress visualisation.
-   - Use a graphing library to visualize progress.
+   - Use a graphing library to visualise progress.
